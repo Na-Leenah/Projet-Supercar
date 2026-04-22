@@ -1,0 +1,4 @@
+# Redirige http://localhost/supercar/admin/ vers login.php
+# Apache cherche index.php par défaut, on le laisse gérer
+# mais on s'assure que DirectoryIndex pointe bien sur index.php
+DirectoryIndex index.php
