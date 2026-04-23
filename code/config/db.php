@@ -6,10 +6,10 @@
 // ============================================================
 
 // --- Paramètres de connexion WampServer ---
-define('DB_HOST', 'mysql-nazraba.alwaysdata.net');       
-define('DB_NAME', 'nazraba_supercar_db');     
-define('DB_USER', 'nazraba');            
-define('DB_PASS', 'Nazra@21.');                
+define('DB_HOST', 'localhost');       
+define('DB_NAME', 'supercar_db');     
+define('DB_USER', 'root');            
+define('DB_PASS', '');                
 define('DB_CHARSET', 'utf8mb4');      // Encodage UTF-8 complet
 
 // --- Fonction qui retourne la connexion PDO ---
